@@ -19,12 +19,9 @@ Usage:
 
 <!-- Initialize at document load -->
 <script type="text/javascript">
-window.addEventListener('load', function(){
-	var domcolorpicker = Bant.colorpicker('#dom-color-picker');
-});
+var domcolorpicker = Bant.colorpicker('#dom-color-picker');
 </script>
 ```
 
 TODOs:
 - Add colorpicker wheel
-- Add alpha support (optional)
