@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Picker - Shadow DOM - Experiment</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="../lib/bant.colorpicker.min.js"></script>
+</head>
+<body>
+	<input type="text" value="#FFFFFF" id="dom-color-picker" />
+
+	<script type="text/javascript">
+	window.addEventListener('load', function(){
+		var domcolorpicker = Bant.colorpicker('#dom-color-picker', true);
+	});
+	</script>
+</body>
+</html>
