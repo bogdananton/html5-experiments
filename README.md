@@ -5,11 +5,7 @@ This repository contains some HTML5 experiments and serves as a playground for f
 ##### Current libraries:
 
 [Colorpicker component](https://dl.dropboxusercontent.com/u/108661300/github/html5-experiments/demo/colorpicker.html) - Encapsulation experiment using Shadow DOM.
-
-Browser support:
-
-Chrome, Opera 15
-
+Browser support: Chrome, Opera 15
 Usage:
 
 ```html
@@ -27,8 +23,7 @@ window.addEventListener('load', function(){
 </script>
 ```
 
-TODO:
-
-Add colorpicker wheel
-Add alpha support (optional)
-Refactor code
+TODOs:
+- Add colorpicker wheel
+- Add alpha support (optional)
+- Refactor code
