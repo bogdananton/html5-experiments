@@ -23,5 +23,23 @@ var domcolorpicker = Bant.colorpicker('#dom-color-picker');
 </script>
 ```
 
-TODOs:
-- Add colorpicker wheel
+
+[ColorWheel Canvas](https://dl.dropboxusercontent.com/u/108661300/github/html5-experiments/demo/colorwheel.html) - Canvas experiment, ported from [Jackson Gabbard's Python script](http://jacksongabbard.com/generating-a-color-picker-style-color-wheel-in-python.html).
+
+Usage:
+
+```html
+<!-- Load library -->
+<script type="text/javascript" src="js/bant.colorwheel.min.js"></script>
+
+<!-- Add host element -->
+<div id="placeholder-color-wheel"></div>
+
+<!-- Initialize at document load -->
+<script type="text/javascript">
+	window.addEventListener('load',function(){
+		// Parameters: element selector and radius. Returns injected canvas element
+		Bant.colorwheel('#placeholder-color-wheel', 150);
+	})
+</script>
+```

@@ -1,1 +1,2 @@
-input {border: 1px solid #ccc}
+input {border: 1px solid #ccc; outline: none}
+#placeholder-color-wheel {width: 300px; height: 300px}

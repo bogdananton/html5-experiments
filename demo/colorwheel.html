@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Wheel - Canvas - Experiment</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="../lib/bant.colorwheel.min.js"></script>
+</head>
+<body>
+	<div id="placeholder-color-wheel"></div>
+
+	<script type="text/javascript">
+	window.addEventListener('load',function(){
+		Bant.colorwheel('#placeholder-color-wheel', 150);
+		
+		// or:
+		// var placeholder = document.getElementById('placeholder-color-wheel');
+		// Bant.colorwheel(placeholder, 150);
+	});
+	</script>
+</body>
+</html>

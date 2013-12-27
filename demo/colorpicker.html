@@ -9,7 +9,9 @@
 	<input type="text" value="#FFFFFF" id="dom-color-picker" />
 
 	<script type="text/javascript">
-		var domcolorpicker = Bant.colorpicker('#dom-color-picker');
+		window.addEventListener('load',function(){
+			var domcolorpicker = Bant.colorpicker('#dom-color-picker');
+		});
 	</script>
 </body>
 </html>
